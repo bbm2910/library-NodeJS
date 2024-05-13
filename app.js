@@ -13,7 +13,7 @@ const bookRoutes = require('./routes/bookRoutes');
 const app = express();
 
 //connect to mongoDB
-const dbURI = 'mongodb+srv://user1:randompassthatisfake@nodejs.cikhccz.mongodb.net/modejs?retryWrites=true&w=majority&appName=nodejs';
+const dbURI = process.env.MONGODB_URI;
 mongoose.connect(dbURI)
     .then((result) => app.listen(3000))  //Listen for requests
     .catch((err) => console.log(err))
