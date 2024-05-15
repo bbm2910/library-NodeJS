@@ -6,5 +6,3 @@ Welcome to the Book Library project! This project allows you to manage a collect
 ## Technologies Used
 `Node.js` `Express.js` `Mongoose` `MongoDB`
 
-## Acknowledgments
-This is part of [The Odin Project](https://www.theodinproject.com) NodeJS Course
